@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Login</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ login_form }}
+    <button class="btn btn-primary" type="submit">Login</button>
+</form>
+<p class="text-center">Don't have an account? <a href="mm">Create an account</a>.</p>
+{% for message in messages %}
+{{message}}
+{% endfor %}
+
+</body>
+</html>

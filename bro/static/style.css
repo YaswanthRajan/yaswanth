@@ -1,0 +1,11 @@
+body{
+  /** background-color:green;
+  background:url(../static/media/sign.jpg ) no-repeat ;
+  background-size:cover;
+  height:600px;
+  background-position:center;**/
+  height:200px;
+  background-color:#cccccc;
+  background-image:repeating-radial-gradient(red,yellow 10%,green 20%) ;
+
+ }
